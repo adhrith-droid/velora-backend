@@ -1,0 +1,8 @@
+{
+  "name": "Velora Live Streaming",
+  "description": "A simple, stable, and mobile-friendly random video chat application using WebRTC and Socket.io.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
