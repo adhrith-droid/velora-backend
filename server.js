@@ -15,7 +15,7 @@ var io = new socket_io_1.Server(httpServer, {
         methods: ["GET", "POST"]
     }
 });
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 // Serve static files from the 'public' directory
 app.use(express_1.default.static(path_1.default.join(__dirname, "public")));
 // Matchmaking state
